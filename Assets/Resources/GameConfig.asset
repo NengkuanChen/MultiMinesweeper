@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 400220ac9b54453c9019ff649b674bbe, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  defaultGridSize: {x: 50, y: 50}
+  mineDensity: 0.2
+  numberSprites:
+  - {fileID: 21300000, guid: cea851f2d52b9594ba2ff4449e3cb3d9, type: 3}
+  - {fileID: 21300000, guid: 8327b70c667306d40bf8ed7e940c28c6, type: 3}
+  - {fileID: 21300000, guid: d463e3e08e9425346be6c25007a6168d, type: 3}
+  - {fileID: 21300000, guid: 49b1fa1fdcbb81640a67d9381e0e6800, type: 3}
+  - {fileID: 21300000, guid: e81290471ddc39d43aa11b5ce7878320, type: 3}
+  - {fileID: 21300000, guid: 966cd4e5583f4b0449186dc367704290, type: 3}
+  - {fileID: 21300000, guid: 2ee8c897b7c1ab74a950b5734856d2e8, type: 3}
+  - {fileID: 21300000, guid: 66cc7be3c5d04ff4893478af00055160, type: 3}
+  - {fileID: 21300000, guid: ec992b7f948f0fe41ad819ac79246351, type: 3}
+  mineSprite: {fileID: 21300000, guid: 615ad9b62c29112479c6673b3fa8cd12, type: 3}
+  flagSprite: {fileID: 21300000, guid: 56bae223b59ac2c4e9864ce320d3a4dc, type: 3}
+  sensitivity: 0.12
+  playerColors:
+  - {r: 1, g: 0, b: 0, a: 1}
+  - {r: 0, g: 1, b: 0, a: 1}
+  - {r: 0, g: 0, b: 1, a: 1}
+  - {r: 1, g: 1, b: 0, a: 1}
+  - {r: 0, g: 1, b: 1, a: 1}
+  - {r: 1, g: 0, b: 1, a: 1}
+  cellPrefab: {fileID: 6480908217335227338, guid: cf741d7bad99b1f4dbc3f70e88a5c06d, type: 3}
+  playerScorePrefab: {fileID: 1552331917281004695, guid: 4841d772c07019547933e4a66467401a, type: 3}
+  zoomSpeed: 1
